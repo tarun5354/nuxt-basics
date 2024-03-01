@@ -3,6 +3,9 @@
         <header class="shadow-sm bg-white">
             <nav class="container mx-auto p-4">
                <NuxtLink to="/products" class="font-bold">nuxt Doji merch intergration pages</NuxtLink>
+               <NuxtLink to="/products/cart" class="font-bold">cart</NuxtLink>
+               
+               
                
             </nav>
 
@@ -16,7 +19,7 @@
                     <li><NuxtLink to="/">Home</NuxtLink></li>
                     <li><NuxtLink to="/about">about</NuxtLink></li>
                     <li ><NuxtLink to="/products">Products</NuxtLink></li>
-                    <li><NuxtLink to="/products/123">marketing</NuxtLink></li>
+                    
                 </ul>
         </footer>
 

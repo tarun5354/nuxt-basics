@@ -1,12 +1,13 @@
 <template>
-    <Products/>
+    
     <div class="container ">
         <h2>welcome to <span>ELECTRIFY PRODUCTS</span></h2>
-        <ProfileHeaderAvatar />
+        
 
         <div class="grid grid-cols-4 gap-5">
             <div v-for="product in products">
-            <NuxtLink :to="`/products/${product.id}`">{{ product.title }}</NuxtLink></div>
+                <Productcart :product="product"/>
+            </div>
         </div>
 
 
@@ -22,11 +23,11 @@
     <script setup>
 
     definePageMeta({
-        layout:'products'
-    })
+         layout:'products'
+     })
    //fectch the products
     const {data: products}= await useFetch('https://fakestoreapi.com/products')
-
+          console.log('https://siddiq-such-flight-v1.p.rapidapi.com/search'); 
 
 
     
