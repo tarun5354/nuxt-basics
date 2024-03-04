@@ -21,13 +21,14 @@
   
     </template>
     <script setup>
-
+              
     definePageMeta({
-         layout:'products'
+         layout:'products',
+        
      })
    //fectch the products
     const {data: products}= await useFetch('https://fakestoreapi.com/products')
-          console.log('https://siddiq-such-flight-v1.p.rapidapi.com/search'); 
+          console.log('https://fakestoreapi.com/products') 
 
 
     
