@@ -24,11 +24,13 @@
               
     definePageMeta({
          layout:'products',
+         middleware:["auth"],
+         
         
-     })
+     });
    //fectch the products
     const {data: products}= await useFetch('https://fakestoreapi.com/products')
-          console.log('https://fakestoreapi.com/products') 
+           
 
 
     

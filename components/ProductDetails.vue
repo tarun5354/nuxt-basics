@@ -33,6 +33,7 @@ const buyTheProduct = () => {
         id: product.id,
         title: product.title,
         price: product.price,
+        image: product.image,
     })
     navigateTo({ path: '/products/cart' })
     // clearError({redirect:'/products/cart'})

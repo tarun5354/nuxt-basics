@@ -1,3 +1,3 @@
 export default defineNuxtRouteMiddleware(()=>{
-    console.log("working globbally")
+    console.log("working globally");
 })

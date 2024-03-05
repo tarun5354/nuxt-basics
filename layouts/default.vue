@@ -9,13 +9,13 @@
                     
                     <li class="flex gap-1"  v-if=" auth.isAuthenticated">
                         <NuxtLink  to="/products" class="btn" >Products</NuxtLink>
-                        <NuxtLink to="/profile"><button >logout</button></NuxtLink>
+                        
                     </li>
                        
                     <li   v-else><NuxtLink to="/signinpage" >signin</NuxtLink></li>
-                    <li><NuxtLink to="/loginpage">error page</NuxtLink></li>
+                    <li   ><NuxtLink to="/loginpage">error page</NuxtLink></li>
 
-                    <li><NuxtLink to="/signuppage" >signup</NuxtLink></li>
+                    <!--<li><NuxtLink to="/signuppage" >signup</NuxtLink></li>-->
 
                      
                    

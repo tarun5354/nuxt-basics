@@ -16,7 +16,7 @@
 -->
 <template>
   <div>
-    <Alert />
+    
     <Profile />
    
   </div>
@@ -59,6 +59,8 @@
       </div>
     </div>
   </div>
+
+  <div><Alert /></div>
 </template>
 
 <script setup>
